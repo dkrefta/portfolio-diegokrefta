@@ -12,7 +12,7 @@ export default class Home extends Component {
            <p> React Engineer </p>
            </Jumbotron>
            <Link to="/about">
-             <Button Sstyle='primary'> About </Button>
+             <Button bsStyle='primary'> Saiba mais </Button>
            </Link>
        </Grid>
      )

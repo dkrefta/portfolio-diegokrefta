@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import  {Grid, Col, Image } 'react-bootstrap'
+import './About.css'
 
 export default class About extends Component {
    render () {

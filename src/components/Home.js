@@ -14,6 +14,23 @@ export default class Home extends Component {
              <Button bsStyle='primary'> Saiba mais </Button>
            </Link>
            </Jumbotron>
+           <Row className="show-grid text-center">
+           <Col xs={12} sm={4} className="person-wrapper">
+           <Image src="assets/diegokrefta.jpg" circle className="profile-pic" />
+         <h3> Diego Krefta </h3>
+       <p> JavaScript Preacher that Loves React.js and Search Engine Optimization </p>
+     </Col>
+           <Col xs={12} sm={4} className="person-wrapper">
+           <Image src="assets/diegokrefta.jpg" circle className="profile-pic" />
+         <h3> Diego Krefta </h3>
+       <p> JavaScript Preacher that Loves React.js and Search Engine Optimization </p>
+     </Col>
+           <Col xs={12} sm={4} className="person-wrapper">
+           <Image src="assets/diegokrefta.jpg" circle className="profile-pic" />
+         <h3> Diego Krefta </h3>
+       <p> JavaScript Preacher that Loves React.js and Search Engine Optimization </p>
+     </Col>
+     </Row>
        </Grid>
      )
    }

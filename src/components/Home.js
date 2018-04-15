@@ -10,10 +10,10 @@ export default class Home extends Component {
          <Jumbotron>
            <h2> Welcome to my Portfolio </h2>
            <p> React Engineer </p>
-           </Jumbotron>
            <Link to="/about">
              <Button bsStyle='primary'> Saiba mais </Button>
            </Link>
+           </Jumbotron>
        </Grid>
      )
    }

@@ -1,12 +1,15 @@
 .jumbotron {
   margin-bottom: 4em;
+  background-image: url("/assets/header-img.jpg");
+  background-size: cover;
 }
 .person-wrapper {
   margin-bottom: 2em;
 }
 
 .profile-pic {
-  width: 50%;
+  width: 250px;
+
 }
 
 .btn-primary {

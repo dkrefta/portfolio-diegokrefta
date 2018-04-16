@@ -8,20 +8,26 @@ export default class Home extends Component {
      return (
        <Grid>
          <Jumbotron>
-           <h2> Welcome to my Portfolio </h2>
-           <p> React Engineer </p>
+           <h1>Code for Life </h1>
+         <h2> React Engineer </h2>
            <Link to="/about">
              <Button bsStyle='primary'> Saiba mais </Button>
            </Link>
            </Jumbotron>
-           <Row className="show-grid text-center">
-           <Col xs={10} sm={12} className="person-wrapper" >
+           <Row className="show-grid">
+           <Col md={6} mdPush={6} className="person-wrapper" >
            <Image src="assets/diegokrefta.jpg" circle className="profile-pic" />
          <h3> Diego Krefta </h3>
        <p> JavaScript Preacher that Loves React.js and Search Engine Optimization </p>
      </Col>
      </Row>
+     <Row className="texto">
+     <Col md={6} mdPush={6}>
+     <p> teste </p>
+   </Col>
+     </Row>
        </Grid>
+
      )
    }
 }

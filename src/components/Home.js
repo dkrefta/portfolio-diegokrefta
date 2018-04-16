@@ -14,15 +14,11 @@ export default class Home extends Component {
              <Button bsStyle='primary'> Saiba mais </Button>
            </Link>
            </Jumbotron>
-           <Row className="show-grid">
-           <Col md={6} mdPush={6} className="person-wrapper" >
+           <Row className="texto">
+           <Col md={6} mdPush={6}>
            <Image src="assets/diegokrefta.jpg" circle className="profile-pic" />
          <h3> Diego Krefta </h3>
        <p> JavaScript Preacher that Loves React.js and Search Engine Optimization </p>
-     </Col>
-     </Row>
-     <Row className="texto">
-     <Col md={6} mdPush={6}>
      <p> teste </p>
    </Col>
      </Row>

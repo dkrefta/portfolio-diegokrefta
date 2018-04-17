@@ -5,6 +5,7 @@ import {
   HeroImage,
   RevealP
  } from './Home.style';
+ import WhenInView from '../../components/WhenInView/WhenInView'
 
 export default class Home extends Component {
   static propTypes = {};
@@ -16,9 +17,13 @@ export default class Home extends Component {
       <h1> Diego Krefta </h1>
       <h2> React Engineer </h2>
       </HeroImage>
-      <RevealP hide={true}>
+      <WhenInView>
+      {({ isInView }) =>
+      <RevealP hide={!isInView}>
       AHAUHEUEAHUEAHUEAHAUEHEAUHEAUAHEUEAHUEAH
       </RevealP>
+    }
+      </WhenInView>
       </Container>
     );
   }

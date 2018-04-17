@@ -6,7 +6,6 @@ export default class About extends Component {
    render () {
      return (
        <div>
-      <img src="assets/header-img.jpg" className="header-image"/>
     <Grid>
     <Col xs={12} sm={8} smOffeset={2}>
     <Image src="assets/diegokrefta.jpg" className="about-profile-pic" rounded />

@@ -1,11 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-import 'font-awesome/css/font-awesome.min.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'mdbreact/dist/css/mdb.css';
+import ReactDOM from 'react-dom'
+import router from './routes';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+import './theme/globalStyle';
+
+ReactDOM.render(
+  router,
+  document.getElementById('root')
+);

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom"
 import Home from './containers/Home/Home';
 import App from './containers/App/App';
 import Projects from './containers/Projects/Projects';
+import NavigationBar from './components/NavigationBar/NavigationBar';
 
 Router.prototype.componentWillReceiveProps = function(nextProps) {
   let components = [];
@@ -22,6 +23,7 @@ Router.prototype.componentWillReceiveProps = function(nextProps) {
 export default (
   <Router>
       <div>
+      <NavigationBar/>
         <Route exact path="/" component={App} />
         <Route exact path="/" component={Home} />
         <Route exact path="/projects" component={Projects} />
